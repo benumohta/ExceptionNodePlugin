@@ -70,7 +70,7 @@ public class Exception {
 	    			//MbElement exceptionTreeList = newExceptionList.getRootElement().getFirstChild();
 	    			MbElement exceptionTreeList = newExceptionList.getRootElement();
 //	    			MbElement exceptionChildElement = exceptionTreeList.getFirstChild();
-	    			String messageText, messageDetails,messageNumber;//, label;
+	    			String messageText, messageDetails,messageNumber = "";//, label;
 	    			//int i = 0;
 	    			
 	    			/*if(exceptionTreeList.getFirstElementByPath("Label") !=null){
@@ -83,7 +83,7 @@ public class Exception {
 	    				if(exceptionTreeList.getFirstElementByPath("Number") !=null){
 	    					messageText = exceptionTreeList.getFirstElementByPath("Text").getValueAsString();
 	    					if (messageText == null){
-	    						messageText = "";
+	    						messageText = "Exception Message Not Available";
 	    					}
 	    					messageNumber = exceptionTreeList.getFirstElementByPath("Number").getValueAsString();
 	    					if(exceptionDetails.getFirstElementByPath("Code") == null){
@@ -91,12 +91,12 @@ public class Exception {
 	    					}else{
 	    						exceptionDetails.getFirstElementByPath("Code").setValue(messageNumber);
 	    					}
+    					
 	    					if(exceptionDetails.getFirstElementByPath("Text") == null){
 	    						exceptionDetails.createElementAsLastChild(MbElement.TYPE_NAME_VALUE, "Text",messageText);
 	    					}else{
 	    						exceptionDetails.getFirstElementByPath("Text").setValue(messageText);
 	    					}				
-	    					
 	    				}
 	    				if(exceptionTreeList.getFirstElementByPath("Text")!=null){
 	    					messageDetails = exceptionTreeList.getFirstElementByPath("Text").getValueAsString();
