@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-Vendor: ExceptionJavaPluginPrjProvider
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-Name: ExceptionJavaPluginPrjPlug-in
+Bundle-SymbolicName: ExceptionJavaPluginPrj; singleton:=true
+Require-Bundle: com.ibm.etools.mft.api,com.ibm.etools.mft.config
+Bundle-Version: 1.0.0.qualifier
+Bundle-ManifestVersion: 2
+

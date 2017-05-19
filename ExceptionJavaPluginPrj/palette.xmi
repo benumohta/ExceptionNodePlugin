@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<palette:CategoryCmp xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:palette="http://www.ibm.com/wbi/2005/eflow_palette" xmlns:utility="http://www.ibm.com/wbi/2005/eflow_utility" xmi:id="Exception">
+  <categoryLabel xsi:type="utility:TranslatableString" key="category.name" bundleName="palette" pluginId="ExceptionJavaPluginPrj"/>
+  <cmpGroups xsi:type="palette:GroupCmp">
+    <cmpEntries xsi:type="palette:ToolEntry" xmi:id="com.ibm.exception.Exception" icon16Name="platform:/plugin/ExceptionJavaPluginPrj/icons/full/clcl16/com/ibm/exception/Exception.gif" icon32Name="platform:/plugin/ExceptionJavaPluginPrj/icons/full/obj32/com/ibm/exception/Exception.gif" toolClassName="com.ibm.etools.mft.flow.editor.MFTNodeCreationTool" toolClassPluginId="com.ibm.etools.mft.flow" nodeURI="com/ibm/exception/Exception.msgnode">
+      <entryLabel xsi:type="utility:TranslatableString" key="entry.com.ibm.exception.Exception" bundleName="palette" pluginId="ExceptionJavaPluginPrj"/>
+      <entryShortDescription xsi:type="utility:TranslatableString" key="tooltip.com.ibm.exception.Exception" bundleName="palette" pluginId="ExceptionJavaPluginPrj"/>
+    </cmpEntries>
+  </cmpGroups>
+</palette:CategoryCmp>
