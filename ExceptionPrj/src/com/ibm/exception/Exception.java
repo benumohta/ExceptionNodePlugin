@@ -14,6 +14,7 @@ public class Exception {
 	
 	public static class ExceptionPluginNode extends MbNode implements MbNodeInterface {
 		
+		@SuppressWarnings("unused")
 		private static String RETHROW_MSG_NUMBER = "2230"; 
 	 
 /*		private String _retryCount, _retryInterval;
